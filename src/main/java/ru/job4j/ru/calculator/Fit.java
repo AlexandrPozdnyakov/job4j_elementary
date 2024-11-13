@@ -2,7 +2,6 @@ package ru.job4j.ru.calculator;
 
 public class Fit {
     public static double manWeight(short heightMan) {
-        //формула расчёта веса по рекомендации ВОЗ
         double result = Math.pow(heightMan / 100.0, 2) * 21.745 + 2.2;
         return result;
     }

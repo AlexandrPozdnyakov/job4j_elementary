@@ -1,4 +1,4 @@
-package ru.job4j.ru.calculator;
+package ru.job4j.calculator;
 
 public class CalculatorMetod {
     public static void plus(int fist, int second) {

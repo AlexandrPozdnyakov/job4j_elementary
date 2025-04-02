@@ -36,8 +36,8 @@ public class Fit {
     }
 
     public static void main(String[] args) {
-        short manHeight = 180;  // Рост мужчины
-        short womanHeight = 170;  // Рост женщины
+        short manHeight = 180;
+        short womanHeight = 170;
 
         System.out.printf("Мужчина %d см: %.1f кг%n",
                 manHeight, calculateIdealWeight(manHeight, Gender.MALE));

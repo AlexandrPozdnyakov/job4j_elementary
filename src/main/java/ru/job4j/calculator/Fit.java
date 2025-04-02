@@ -36,7 +36,7 @@ public class Fit {
     }
 
     public static void main(String[] args) {
-        short manHeight = 180;
+        short manHeight = 181;
         short womanHeight = 170;
 
         System.out.printf("Мужчина %d см: %.1f кг%n",

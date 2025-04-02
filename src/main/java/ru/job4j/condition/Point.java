@@ -11,7 +11,7 @@ public class Point {
         double result2 = distance(1, 1, 2, 2);
         double result3 = distance(2, 2, 6, 3);
         System.out.printf("result (0, 0) to (2, 0) - %.1f%n ", result1);
-        System.out.printf("result (1, 2) to (2, 2) - %.1f%n ", result2);
-        System.out.printf("result (5, 2) to (6, 3) - %.1f%n ", result3);
+        System.out.printf("result (1, 1) to (2, 2) - %.1f%n ", result2);
+        System.out.printf("result (2, 2) to (6, 3) - %.1f%n ", result3);
     }
 }

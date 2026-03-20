@@ -15,5 +15,12 @@ public class SwitchArray {
         for (int index = 0; index < result.length; index++) {
             System.out.println(result[index]);
         }
+
+    }
+
+    public static void swap(int[] array, int source, int dest) {
+        int temp = array[source];
+        array[source] = array[dest];
+        array[dest] = temp;
     }
 }
